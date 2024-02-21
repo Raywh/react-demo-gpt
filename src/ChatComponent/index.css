@@ -1,0 +1,40 @@
+.contain {
+	height: 100vh;
+	position: relative;
+	max-width: 540px;
+	min-width: 360px;
+	margin: 0 auto;
+}
+
+.ai-key-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ai-key-box label {
+	margin-right: 10px;
+}
+
+.list-box {
+	
+}
+
+.chat-box {
+	z-index: 999;
+	position: fixed;
+	bottom: 10px;
+	width: 560px;
+
+}
+
+.text textarea {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 30px;
+}
+.start-box {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
